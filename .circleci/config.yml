@@ -1,7 +1,16 @@
 version: 2.1
 
 jobs:
-  
+  - checkout_and_unit_test:
+  - deploy_backend:
+  - integration_tests_backend:
+  - deploy_staging:
+  - acceptance_test_1:
+  - acceptance_test_2:
+  - acceptance_test_3:
+  - acceptance_test_4:
+  - deploy_production:
+
 
 workflows:
   WorkflowTest:
