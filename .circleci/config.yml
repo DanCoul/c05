@@ -1,39 +1,39 @@
 version: 2.1
 
 jobs:
-  - checkout_and_unit_test:
+  checkout_and_unit_test:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - deploy_backend:
+  deploy_backend:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - integration_tests_backend:
+  integration_tests_backend:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - deploy_staging:
+  deploy_staging:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - acceptance_test_1:
+  acceptance_test_1:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - acceptance_test_2:
+  acceptance_test_2:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - acceptance_test_3:
+  acceptance_test_3:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - acceptance_test_4:
+  acceptance_test_4:
     machine: true
     steps:
       - run: echo "Hello World!"
-  - deploy_production:
+  deploy_production:
     machine: true
     steps:
       - run: echo "Hello World!"
